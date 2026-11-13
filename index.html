@@ -1,0 +1,482 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STEVAN.exe | Portfolio</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#start" class="logo">STEVAN<span>.exe</span></a>
+
+        <nav>
+            <a href="#start">START</a>
+            <a href="#about">ABOUT ME</a>
+            <a href="#skills">SKILL TREE</a>
+            <a href="#projects">QUEST LOG</a>
+            <a href="#records">RECORDS</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- PORTADA -->
+        <section id="start" class="hero">
+            <div class="scan-line"></div>
+            
+            <!-- Indicador de grabación -->
+<div class="recording">
+    <div class="recording-status">
+        <span class="recording-dot"></span>
+        <span>REC</span>
+    </div>
+
+    <span class="recording-time" id="recordingTime">00:00:00</span>
+    <span class="camera-name">CAM 01 // LIVE FEED</span>
+</div>
+            <div class="hero-content">
+                <p class="eyebrow">PLAYER 01 // SYSTEM ONLINE</p>
+
+                <h1>STEVAN<br>QUIJANO<span>.</span></h1>
+
+                <h2>FULL-STACK DEVELOPER</h2>
+
+                <p class="description">
+                    Explorando nuevas tecnologías.
+                    Construyendo soluciones.
+                    Sobreviviendo a cada desafío.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">EXPLORE MY WORLD</a>
+                    <a href="#contact" class="btn-secondary">CONTACT ME</a>
+                </div>
+            </div>
+
+            <div class="hero-decoration">
+                <span>NO SIGNAL</span>
+                <span>UNKNOWN TERRITORY</span>
+            </div>
+
+            <a href="#about" class="scroll-down">SCROLL TO EXPLORE ↓</a>
+        </section>
+
+        <!-- SOBRE MI -->
+      
+<section id="about" class="about-section">
+
+    <div class="about-heading">
+        <p class="eyebrow">01 // CHARACTER PROFILE</p>
+        <h2>THE PERSON <span>BEHIND THE CODE.</span></h2>
+    </div>
+
+    <div class="about-container">
+
+        <div class="profile-frame">
+            <img src="IMG/profile/stevan.jpg" alt="Fotografía de Stevan">
+            <span class="profile-code">SUBJECT_001</span>
+            <span class="profile-status">IDENTITY VERIFIED</span>
+        </div>
+
+        <div class="about-info">
+            <p class="about-label">PLAYER 01 // DEVELOPER</p>
+
+            <h3>Stevan<br>Quijano<span>.</span></h3>
+
+            <p class="about-description">
+                Mi camino en la tecnología es una misión en constante evolución.
+                Me apasiona explorar nuevas herramientas, resolver problemas
+                y transformar ideas en soluciones digitales.
+                Actualmente estoy fortaleciendo mis habilidades en desarrollo
+                Full-Stack con Java, mientras construyo proyectos y nuevos desafíos.
+            </p>
+
+            <div class="profile-details">
+                <div>
+                    <span>LOCATION</span>
+                    <strong>BOGOTÁ, COLOMBIA</strong>
+                </div>
+
+                <div>
+                    <span>CLASS</span>
+                    <strong>FULL-STACK DEVELOPER</strong>
+                </div>
+
+                <div>
+                    <span>STATUS</span>
+                    <strong>LEARNING // BUILDING</strong>
+                </div>
+
+                <div>
+                    <span>MISSION</span>
+                    <strong>LEVEL UP</strong>
+                </div>
+            </div>
+
+            <a href="#skills" class="about-link">
+                DISCOVER MY SKILL TREE →
+            </a>
+        </div>
+
+    </div>
+</section>
+
+
+        <!-- HABILIDADES -->
+      
+
+
+<section id="skills" class="level-system">
+
+    <div class="level-heading">
+        <p class="eyebrow">02 // PLAYER DEVELOPMENT</p>
+        <h2>SKILL <span>PROGRESSION.</span></h2>
+        <p>CHOOSE YOUR NEXT UPGRADE.</p>
+    </div>
+
+    <div class="level-interface">
+
+        <!-- SELECTOR DE NIVELES -->
+        <div class="level-selector">
+
+            <button class="level-button active" data-level="0">
+                <span>LEVEL 01</span>
+                <strong>PROGRAMMING</strong>
+                <small>CORE SYSTEMS</small>
+            </button>
+
+            <button class="level-button" data-level="1">
+                <span>LEVEL 02</span>
+                <strong>DATABASE</strong>
+                <small>DATA MANAGEMENT</small>
+            </button>
+
+            <button class="level-button" data-level="2">
+                <span>LEVEL 03</span>
+                <strong>TOOLS</strong>
+                <small>SURVIVAL EQUIPMENT</small>
+            </button>
+
+        </div>
+
+        <!-- CONTENIDO DEL NIVEL -->
+        <div class="level-content">
+
+            <div class="level-content-heading">
+                <span id="currentLevel">LEVEL 01</span>
+                <h3 id="currentCategory">PROGRAMMING</h3>
+                <p id="currentSubtitle">CORE SYSTEMS // AVAILABLE SKILLS</p>
+            </div>
+
+            <div class="level-skills" id="levelSkills">
+
+                <button class="technology active"
+                    data-name="Java"
+                    data-description="Programación orientada a objetos y desarrollo de aplicaciones utilizando Java.">
+                    <span class="technology-icon">J</span>
+                    <span class="technology-name">JAVA</span>
+                    <span class="technology-status">EN FORMACIÓN</span>
+                    <span class="technology-arrow">↗</span>
+                </button>
+
+                <button class="technology"
+                    data-name="JavaScript"
+                    data-description="Lógica de programación, interactividad y manipulación del DOM para aplicaciones web.">
+                    <span class="technology-icon">JS</span>
+                    <span class="technology-name">JAVASCRIPT</span>
+                    <span class="technology-status">EN PRÁCTICA</span>
+                    <span class="technology-arrow">↗</span>
+                </button>
+
+                <button class="technology"
+                    data-name="HTML5"
+                    data-description="Estructuración de páginas web mediante HTML semántico.">
+                    <span class="technology-icon">5</span>
+                    <span class="technology-name">HTML5</span>
+                    <span class="technology-status">EN PRÁCTICA</span>
+                    <span class="technology-arrow">↗</span>
+                </button>
+
+                <button class="technology"
+                    data-name="CSS3"
+                    data-description="Diseño de interfaces, estilos visuales y adaptación responsive.">
+                    <span class="technology-icon">3</span>
+                    <span class="technology-name">CSS3</span>
+                    <span class="technology-status">EN PRÁCTICA</span>
+                    <span class="technology-arrow">↗</span>
+                </button>
+
+            </div>
+
+            <!-- DETALLE DE LA TECNOLOGÍA -->
+            <div class="technology-details">
+                <span>SELECTED TECHNOLOGY // INFORMATION</span>
+                <h4 id="technologyName">Java</h4>
+                <p id="technologyDescription">
+                    Programación orientada a objetos y desarrollo de aplicaciones utilizando Java.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="level-footer">
+        PLAYER 01 // KNOWLEDGE DATABASE
+    </div>
+
+</section>
+
+
+
+        <!-- PROYECTOS -->
+<section id="projects" class="quest-section">
+
+    <div class="quest-heading">
+        <p class="eyebrow">03 // MISSION FILES</p>
+        <h2>QUEST <span>LOG.</span></h2>
+        <p>REGISTRO DE MISIONES // PLAYER 01</p>
+    </div>
+
+    <div class="quest-container">
+
+        <!-- GOD OF TASKS -->
+        <article class="quest-card">
+
+            <div class="quest-image god-image">
+                <span class="quest-number">MISSION_001</span>
+                <span class="quest-type">SOLO MISSION</span>
+            </div>
+
+            <div class="quest-info">
+                <span class="quest-status">EN DESARROLLO</span>
+                <h3>GOD OF TASKS</h3>
+
+                <p>
+                    Aplicación web de gestión de tareas con una
+                    temática inspirada en videojuegos RPG.
+                    Organiza misiones, administra actividades
+                    y registra el progreso del jugador.
+                </p>
+
+                <div class="quest-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>BOOTSTRAP</span>
+                    <span>JAVASCRIPT</span>
+                </div>
+
+                <a href="https://github.com/STEVAN1310/Aplicacion_Web_de_Planificacion_de_Tareas"
+                   target="_blank" rel="noopener noreferrer">
+                    ACCESS MISSION →
+                </a>
+            </div>
+        </article>
+
+        <!-- FAST GRILL -->
+        <article class="quest-card">
+
+            <div class="quest-image grill-image">
+                <span class="quest-number">MISSION_002</span>
+                <span class="quest-type">TEAM MISSION</span>
+            </div>
+
+            <div class="quest-info">
+                <span class="quest-status">PROYECTO ACADÉMICO</span>
+                <h3>FAST GRILL</h3>
+
+                <p>
+                    Proyecto web grupal enfocado en la
+                    presentación de un restaurante y su
+                    identidad visual mediante una interfaz web.
+                </p>
+
+                <div class="quest-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <a href="#" class="quest-link-disabled">
+                    MISSION FILE // SOON
+                </a>
+            </div>
+        </article>
+
+        <!-- GESTIÓN DE RESERVAS -->
+        <article class="quest-card">
+
+            <div class="quest-image booking-image">
+                <span class="quest-number">MISSION_003</span>
+                <span class="quest-type">TEAM MISSION</span>
+            </div>
+
+            <div class="quest-info">
+                <span class="quest-status">PROYECTO ACADÉMICO</span>
+                <h3>GESTIÓN DE RESERVAS</h3>
+
+                <p>
+                    Aplicación web grupal orientada a la
+                    gestión de reservas, integrando tecnologías
+                    de desarrollo frontend, backend y bases de datos.
+                </p>
+
+                <div class="quest-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JAVASCRIPT</span>
+                    <span>JAVA</span>
+                    <span>POSTGRESQL</span>
+                </div>
+
+                <a href="#" class="quest-link-disabled">
+                    MISSION FILE // SOON
+                </a>
+            </div>
+        </article>
+
+    </div>
+
+    <div class="quest-footer">
+        PLAYER 01 // MISSION DATABASE
+    </div>
+
+</section>
+
+<!-- PLAYER HISTORY -->
+<section id="records" class="records-section">
+
+    <div class="records-heading">
+        <p class="eyebrow">04 // PLAYER HISTORY</p>
+        <h2>PERSONAL <span>RECORDS.</span></h2>
+        <p>EDUCATION // KNOWLEDGE // PROGRESSION</p>
+    </div>
+
+    <div class="records-container">
+
+        <article class="record-card">
+            <span class="record-number">RECORD_001</span>
+            <span class="record-status">IN PROGRESS</span>
+
+            <h3>GENERATION COLOMBIA</h3>
+            <p class="record-title">
+                Programa de Desarrollo Junior Full-Stack / Java
+            </p>
+
+            <span class="record-date">2026 // ACTUALIDAD</span>
+        </article>
+
+        <article class="record-card">
+            <span class="record-number">RECORD_002</span>
+            <span class="record-status">IN PROGRESS</span>
+
+            <h3>UNIVERSIDAD ECCI</h3>
+            <p class="record-title">
+                Tecnología y Desarrollo Informático
+            </p>
+
+            <span class="record-date">EN CURSO</span>
+        </article>
+
+        <article class="record-card">
+            <span class="record-number">RECORD_003</span>
+            <span class="record-status completed">COMPLETED</span>
+
+            <h3>SENA</h3>
+            <p class="record-title">
+                Técnico en Asistencia Administrativa
+            </p>
+
+            <span class="record-date">
+                02/2018 — 11/2019
+            </span>
+        </article>
+
+    </div>
+
+    <div class="records-footer">
+        PLAYER 01 // CAREER DATABASE
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact-section">
+
+    <div class="contact-heading">
+        <p class="eyebrow">05 // FINAL TRANSMISSION</p>
+        <h2>ESTABLISH <span>CONNECTION.</span></h2>
+        <p>ALL SIGNALS LEAD TO A NEW BEGINNING.</p>
+    </div>
+
+    <div class="contact-container">
+
+        <div class="contact-message">
+            <span class="contact-label">
+                INCOMING TRANSMISSION // PLAYER 01
+            </span>
+
+            <h3>¿CREAMOS ALGO<br><span>JUNTOS?</span></h3>
+
+            <p>
+                Siempre estoy abierto a aprender, colaborar
+                y participar en nuevos proyectos.
+                Si tienes una idea o quieres conectar,
+                puedes encontrarme en estos canales.
+            </p>
+
+            <span class="contact-status">
+                <span class="status-dot"></span>
+                CONNECTION AVAILABLE
+            </span>
+        </div>
+
+        <div class="contact-links">
+
+            <a href="https://github.com/STEVAN1310"
+               target="_blank" rel="noopener noreferrer"
+               class="contact-link">
+                <span class="contact-number">01</span>
+                <span class="contact-link-info">
+                    <small>CODE REPOSITORY</small>
+                    <strong>GITHUB</strong>
+                </span>
+                <span class="contact-arrow">↗</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/luis-stevan-quijano-perilla-bb9a67232/"
+               target="_blank" rel="noopener noreferrer"
+               class="contact-link">
+                <span class="contact-number">02</span>
+                <span class="contact-link-info">
+                    <small>PROFESSIONAL NETWORK</small>
+                    <strong>LINKEDIN</strong>
+                </span>
+                <span class="contact-arrow">↗</span>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="contact-footer">
+        <span>PLAYER 01 // STEVAN.exe</span>
+        <span>END OF TRANSMISSION_</span>
+    </div>
+
+</section>
+
+    </main>
+
+   <footer>
+        <p>STEVAN.exe © 2026 | END OF TRANSMISSION</p>
+    </footer>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
